@@ -1,0 +1,20 @@
+.page-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+.form-container {
+    display: flex !important; 
+    flex-direction: column !important; 
+    align-items: center !important;   
+    justify-content: center !important; 
+    min-height: 100vh !important;  
+    gap: 8px; /* Reduced gap between fields */
+    width: 300px; /* Optional: limit the width of the form */
+  }
+  
+  .form-field {
+    width: 100%; /* Make fields take up full container width */
+  }
